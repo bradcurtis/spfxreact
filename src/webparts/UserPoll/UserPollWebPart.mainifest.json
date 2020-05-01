@@ -1,0 +1,31 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+    "id": "44ad9ba7-ec93-4cf5-826e-5c388812c322",
+    "alias": "UserPollWebPart",
+    "componentType": "WebPart",
+
+    "version": "*",
+    "manifestVersion": 2,
+
+    "supportedHosts": [
+        "SharePointWebPart"
+    ],
+    "preconfiguredEntries": [
+        {
+            "groupId": "5c03119e-3074-46fd-976b-c60198311f71", 
+            "group": {
+                "default": "Other"
+            },
+            "title": {
+                "default": "UserPoll"
+            },
+            "description": {
+                "default": "UserPoll description"
+            },
+            "officeFabricIconFontName": "Page",
+            "properties": {
+                "description": "UserPoll"
+            }
+        }
+    ]
+}
